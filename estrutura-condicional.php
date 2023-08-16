@@ -88,6 +88,7 @@ if($dia ==0){
 }else if($dia == 6){
     echo "Sabádo";
 }
+echo "<hr>";
 
 
 
