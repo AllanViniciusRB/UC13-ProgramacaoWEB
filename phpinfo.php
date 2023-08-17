@@ -1,0 +1,4 @@
+<?php
+
+//Identificar problemas.
+phpinfo();
