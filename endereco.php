@@ -16,7 +16,6 @@
     <head>
         <meta charset="utf-8">
         <title>Buscar Endereço</title>
-
         <style>
             .bloquin{
                 text-align: center;
@@ -24,9 +23,9 @@
                 width: 320px;
                 border: 3px solid green;
                 padding: 10px;
-                color:black;      
+                color:black;
+                
             }
-            
         </style>
 
     </head>
@@ -34,13 +33,13 @@
     <body>
         </body>
         <div class="bloquin">
-            <h1>Endereço</h1>
+            <h1>Dados</h1>
             <hr>
-            <p>CEP: 17524-111 <?=$dadosEndereco['cep']?></P>
-            <p>Lougradouro: Rua Paraiba</p>
-            <p>Bairro: Centro</p>
-            <p>Cidade: Marília</p>
-            <p>Estado: SP</p>
+            <p>CEP: <?=$dadosEndereco['cep']?></P>
+            <p>Lougradouro: <?=$dadosEndereco['logradouro'] ?></p>
+            <p>Bairro: <?=$dadosEndereco['bairro'] ?></p>
+            <p>Cidade: <?=$dadosEndereco['localidade'] ?></p>
+            <p>Estado: <?=$dadosEndereco['uf'] ?></p>
         </div>
         </body>
     </html>
