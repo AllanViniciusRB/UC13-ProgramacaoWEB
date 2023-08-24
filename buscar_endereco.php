@@ -6,7 +6,7 @@
     </head>
 
     <body>
-        <h1>Pesquisar Endereço</h1>
+        <h1>Informações</h1>
 
         <form action="endereco.php" method="post">
         <fieldset>
@@ -14,8 +14,13 @@
             <input name="cep" type="text" placeholder="00000-000">         
             <button type="submit">Pesquisar</button>
         </fieldset>
-            
-
+        </form>
+        <form action="aluno.php" method="post">
+            <fieldset>
+            <legend>Insira o nome do Aluno: </legend>
+            <input name="nome" type="text" placeholder="Nome completo por favor!">
+            <button type="submit">Confirmar</button>
+            </fieldset>
         </form>
 
     </body>
