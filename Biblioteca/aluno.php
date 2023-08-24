@@ -4,25 +4,35 @@
 
         private $nome;
         private $email;
-        private $endereco;
-        private $localidade;
+        private $cep;
 
-        public function __construct($nome,$email,$endereco,$localidade)
+
+        public function __construct($nome,$email,$cep)
         {   
             $this->nome=$nome;
             $this->email=$email;
-            $this->endereco=$endereco;
-            $this->localidade=$localidade;
+            $this->cep=$cep;
         }
         public function exibirInformacoes(){
-
+            
             echo 'Nome: '. $this->nome. "<br>";
             echo 'Email: '. $this->email. "<br>";
-            echo 'Endereço: '. $this->endereco. "<br>";
-            echo 'Localidade'. $this->localidade; 
+            echo 'CEP: '. $this->cep. "<br>";
         }
+        
     }
-    $aluno = new Aluno("Allan", "apsoa", "soka", "sp");
-    echo "$aluno";
+    class inserirDados{
+        
+        
+        public function receberDados(){
+            if($_SERVER["REQUEST_METHOD"]=="POST"){
+                $nome = $_POST["nome"];
+                $email = $_POST["email"];
+                $endereco = $_POST ["cep"];
+            }
+        }    
+        
+    }
+    
 
 ?>

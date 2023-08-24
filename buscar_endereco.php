@@ -22,6 +22,15 @@
             <button type="submit">Confirmar</button>
             </fieldset>
         </form>
+        <hr>
+        <h3>Insira os dados</h3>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="cep">CEP:</label>
+        <input type="cep" id="cep" name="cep">
+        
 
     </body>
 </html>

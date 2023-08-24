@@ -10,6 +10,8 @@ class Endereco{
 
     public function buscarEndereco(){
 
+
+        
     }
 
     public function imprimirEndereco(){
