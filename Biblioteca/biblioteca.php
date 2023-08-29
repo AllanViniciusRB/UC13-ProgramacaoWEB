@@ -6,18 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema biblioteca</title>
 
-    <style>
-        .formulario{
-            text-align: center;
-            width: auto;
-            align-items: center;
-        
-        }
-        .dados{
-            text-align:center;
-            display: block;
-        }
-    </style>
 </head>
 <body>
    
